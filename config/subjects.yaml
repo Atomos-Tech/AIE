@@ -1,0 +1,45 @@
+default_subject: operating_systems
+
+subjects:
+  operating_systems:
+    name: "Operating Systems"
+    description: "Core concepts of modern operating systems, including processes, memory management, and file systems."
+
+    # Database configuration
+    database:
+      neo4j_database: "neo4j"
+      label_prefix: "os"
+      opensearch_index: "textbook_chunks_os"
+
+    # Content sources
+    books:
+      - title: "Operating Systems Question Bank"
+        source_type: "local_script"
+
+    # LLM prompts
+    prompts:
+      system_prompt: |
+        You are an expert Operating Systems tutor. Answer the student's question using ONLY the provided context.
+
+        Rules:
+        1. Base your answer ONLY on the provided context
+        2. If the context doesn't contain enough information, say so
+        3. Cite context passages using [1], [2], etc.
+        4. Be clear, accurate, and educational
+      context_label: "Context from OS Question Bank"
+
+    # Frontend theming
+    theme:
+      primary_color: "#0f172a"  # Slate for OS
+      secondary_color: "#cbd5e1"
+      accent_color: "#334155"
+      chapter_colors:
+        "Process Management": "#3b82f6"
+        "Memory Management": "#10b981"
+        "Storage & File Systems": "#8b5cf6"
+        "Concurrency & Synchronization": "#ef4444"
+        "Virtual Memory": "#f59e0b"
+        default: "#64748b"
+
+    # Attribution
+    attribution: "Content from Local OS Question Bank."

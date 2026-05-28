@@ -1,0 +1,1747 @@
+{
+  "concepts": {
+    "Question": {
+      "name": "Question",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 7,
+      "importance_score": 1.0,
+      "source_modules": [
+        "process-management",
+        "thread-management",
+        "concurrency",
+        "deadlocks",
+        "memory-management",
+        "virtual-memory",
+        "file-systems"
+      ],
+      "aliases": []
+    },
+    "Physical Memory": {
+      "name": "Physical Memory",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 2,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "memory-management",
+        "virtual-memory"
+      ],
+      "aliases": []
+    },
+    "Conditions Hold Simultaneously": {
+      "name": "Conditions Hold Simultaneously",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "deadlocks"
+      ],
+      "aliases": []
+    },
+    "Prevents Memory Fragmentation": {
+      "name": "Prevents Memory Fragmentation",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "memory-management"
+      ],
+      "aliases": []
+    },
+    "Separating Logical Memory": {
+      "name": "Separating Logical Memory",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "virtual-memory"
+      ],
+      "aliases": []
+    },
+    "Operating System Manages": {
+      "name": "Operating System Manages",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "process-management"
+      ],
+      "aliases": []
+    },
+    "Shared Data Concurrently": {
+      "name": "Shared Data Concurrently",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "concurrency"
+      ],
+      "aliases": []
+    },
+    "Critical Section Problem": {
+      "name": "Critical Section Problem",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "concurrency"
+      ],
+      "aliases": []
+    },
+    "Memory Management Scheme": {
+      "name": "Memory Management Scheme",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "memory-management"
+      ],
+      "aliases": []
+    },
+    "Processes Access Shared": {
+      "name": "Processes Access Shared",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "concurrency"
+      ],
+      "aliases": []
+    },
+    "Coffman Conditions Hold": {
+      "name": "Coffman Conditions Hold",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "deadlocks"
+      ],
+      "aliases": []
+    },
+    "Section Problem Arises": {
+      "name": "Section Problem Arises",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "concurrency"
+      ],
+      "aliases": []
+    },
+    "Execution Of Processes": {
+      "name": "Execution Of Processes",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "virtual-memory"
+      ],
+      "aliases": []
+    },
+    "Unix-Like File Systems": {
+      "name": "Unix-Like File Systems",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "file-systems"
+      ],
+      "aliases": []
+    },
+    "Process Control Block": {
+      "name": "Process Control Block",
+      "type": "Concept",
+      "definition": null,
+      "key_term": true,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "process-management"
+      ],
+      "aliases": []
+    },
+    "Mechanisms Like Mutex": {
+      "name": "Mechanisms Like Mutex",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "concurrency"
+      ],
+      "aliases": []
+    },
+    "Abstracts Main Memory": {
+      "name": "Abstracts Main Memory",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "virtual-memory"
+      ],
+      "aliases": []
+    },
+    "File System Maintains": {
+      "name": "File System Maintains",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "file-systems"
+      ],
+      "aliases": []
+    },
+    "Lightweight Process": {
+      "name": "Lightweight Process",
+      "type": "Concept",
+      "definition": null,
+      "key_term": true,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "thread-management"
+      ],
+      "aliases": []
+    },
+    "Deadlock Prevention": {
+      "name": "Deadlock Prevention",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "deadlocks"
+      ],
+      "aliases": []
+    },
+    "Algorithms Like Lru": {
+      "name": "Algorithms Like Lru",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "virtual-memory"
+      ],
+      "aliases": []
+    },
+    "Page Faults Handled": {
+      "name": "Page Faults Handled",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "virtual-memory"
+      ],
+      "aliases": []
+    },
+    "Explain The Concept": {
+      "name": "Explain The Concept",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "file-systems"
+      ],
+      "aliases": []
+    },
+    "Process Management": {
+      "name": "Process Management",
+      "type": "Concept",
+      "definition": null,
+      "key_term": true,
+      "frequency": 1,
+      "importance_score": 0.5560237622730391,
+      "source_modules": [
+        "process-management"
+      ],
+      "aliases": []
+    },
+    "Access Shared Data": {
+      "name": "Access Shared Data",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "concurrency"
+      ],
+      "aliases": []
+    },
+    "Deadlock Avoidance": {
+      "name": "Deadlock Avoidance",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "deadlocks"
+      ],
+      "aliases": []
+    },
+    "Banker'S Algorithm": {
+      "name": "Banker'S Algorithm",
+      "type": "Concept",
+      "definition": null,
+      "key_term": true,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "deadlocks"
+      ],
+      "aliases": []
+    },
+    "Inode In Unix-Like": {
+      "name": "Inode In Unix-Like",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "file-systems"
+      ],
+      "aliases": []
+    },
+    "Threads Belonging": {
+      "name": "Threads Belonging",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "thread-management"
+      ],
+      "aliases": []
+    },
+    "Creating A Thread": {
+      "name": "Creating A Thread",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "thread-management"
+      ],
+      "aliases": []
+    },
+    "Ostrich Algorithm": {
+      "name": "Ostrich Algorithm",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "deadlocks"
+      ],
+      "aliases": []
+    },
+    "Resource Acquired": {
+      "name": "Resource Acquired",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "deadlocks"
+      ],
+      "aliases": []
+    },
+    "Page Fault Occurs": {
+      "name": "Page Fault Occurs",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "virtual-memory"
+      ],
+      "aliases": []
+    },
+    "Computer Program": {
+      "name": "Computer Program",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "process-management"
+      ],
+      "aliases": []
+    },
+    "Multiple Threads": {
+      "name": "Multiple Threads",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "concurrency"
+      ],
+      "aliases": []
+    },
+    "Mutual Exclusion": {
+      "name": "Mutual Exclusion",
+      "type": "Concept",
+      "definition": null,
+      "key_term": true,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "deadlocks"
+      ],
+      "aliases": []
+    },
+    "Banker Algorithm": {
+      "name": "Banker Algorithm",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "deadlocks"
+      ],
+      "aliases": []
+    },
+    "Set Of Processes": {
+      "name": "Set Of Processes",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "deadlocks"
+      ],
+      "aliases": []
+    },
+    "Page Replacement": {
+      "name": "Page Replacement",
+      "type": "Concept",
+      "definition": null,
+      "key_term": true,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "virtual-memory"
+      ],
+      "aliases": []
+    },
+    "Program Counter": {
+      "name": "Program Counter",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "thread-management"
+      ],
+      "aliases": []
+    },
+    "Share Resources": {
+      "name": "Share Resources",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "thread-management"
+      ],
+      "aliases": []
+    },
+    "Cpu Utilization": {
+      "name": "Cpu Utilization",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "thread-management"
+      ],
+      "aliases": []
+    },
+    "Leading To Race": {
+      "name": "Leading To Race",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "concurrency"
+      ],
+      "aliases": []
+    },
+    "Race Conditions": {
+      "name": "Race Conditions",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "concurrency"
+      ],
+      "aliases": []
+    },
+    "Synchronization": {
+      "name": "Synchronization",
+      "type": "Concept",
+      "definition": null,
+      "key_term": true,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "concurrency"
+      ],
+      "aliases": []
+    },
+    "Describe Paging": {
+      "name": "Describe Paging",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "memory-management"
+      ],
+      "aliases": []
+    },
+    "Process States": {
+      "name": "Process States",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "process-management"
+      ],
+      "aliases": []
+    },
+    "Cpu Scheduling": {
+      "name": "Cpu Scheduling",
+      "type": "Concept",
+      "definition": null,
+      "key_term": true,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "process-management"
+      ],
+      "aliases": []
+    },
+    "Multithreading": {
+      "name": "Multithreading",
+      "type": "Concept",
+      "definition": null,
+      "key_term": true,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "thread-management"
+      ],
+      "aliases": []
+    },
+    "Virtual Memory": {
+      "name": "Virtual Memory",
+      "type": "Concept",
+      "definition": null,
+      "key_term": true,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "virtual-memory"
+      ],
+      "aliases": []
+    },
+    "Process Share": {
+      "name": "Process Share",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "thread-management"
+      ],
+      "aliases": []
+    },
+    "Thread Differ": {
+      "name": "Thread Differ",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "thread-management"
+      ],
+      "aliases": []
+    },
+    "Circular Wait": {
+      "name": "Circular Wait",
+      "type": "Concept",
+      "definition": null,
+      "key_term": true,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "deadlocks"
+      ],
+      "aliases": []
+    },
+    "Register Set": {
+      "name": "Register Set",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "thread-management"
+      ],
+      "aliases": []
+    },
+    "Unit Of Cpu": {
+      "name": "Unit Of Cpu",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "thread-management"
+      ],
+      "aliases": []
+    },
+    "Mutex Locks": {
+      "name": "Mutex Locks",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "concurrency"
+      ],
+      "aliases": []
+    },
+    "Object Data": {
+      "name": "Object Data",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "file-systems"
+      ],
+      "aliases": []
+    },
+    "Terminated": {
+      "name": "Terminated",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "process-management"
+      ],
+      "aliases": []
+    },
+    "Basic Unit": {
+      "name": "Basic Unit",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "thread-management"
+      ],
+      "aliases": []
+    },
+    "Page Table": {
+      "name": "Page Table",
+      "type": "Concept",
+      "definition": null,
+      "key_term": true,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "memory-management"
+      ],
+      "aliases": []
+    },
+    "Index Node": {
+      "name": "Index Node",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "file-systems"
+      ],
+      "aliases": []
+    },
+    "Unix-Style": {
+      "name": "Unix-Style",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "file-systems"
+      ],
+      "aliases": []
+    },
+    "File Inode": {
+      "name": "File Inode",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "file-systems"
+      ],
+      "aliases": []
+    },
+    "Semaphore": {
+      "name": "Semaphore",
+      "type": "Concept",
+      "definition": null,
+      "key_term": true,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "concurrency"
+      ],
+      "aliases": []
+    },
+    "Addresses": {
+      "name": "Addresses",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "memory-management"
+      ],
+      "aliases": []
+    },
+    "Cpu Time": {
+      "name": "Cpu Time",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "process-management"
+      ],
+      "aliases": []
+    },
+    "Swapping": {
+      "name": "Swapping",
+      "type": "Concept",
+      "definition": null,
+      "key_term": true,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "virtual-memory"
+      ],
+      "aliases": []
+    },
+    "Waiting": {
+      "name": "Waiting",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "process-management"
+      ],
+      "aliases": []
+    },
+    "Running": {
+      "name": "Running",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "process-management"
+      ],
+      "aliases": []
+    },
+    "Divided": {
+      "name": "Divided",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "memory-management"
+      ],
+      "aliases": []
+    },
+    "Storage": {
+      "name": "Storage",
+      "type": "Concept",
+      "definition": null,
+      "key_term": true,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "file-systems"
+      ],
+      "aliases": []
+    },
+    "Answer": {
+      "name": "Answer",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.49937865394316655,
+      "source_modules": [
+        "process-management"
+      ],
+      "aliases": []
+    },
+    "Solved": {
+      "name": "Solved",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "concurrency"
+      ],
+      "aliases": []
+    },
+    "Frames": {
+      "name": "Frames",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "memory-management"
+      ],
+      "aliases": []
+    },
+    "Blocks": {
+      "name": "Blocks",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "memory-management"
+      ],
+      "aliases": []
+    },
+    "Called": {
+      "name": "Called",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "memory-management"
+      ],
+      "aliases": []
+    },
+    "Ready": {
+      "name": "Ready",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "process-management"
+      ],
+      "aliases": []
+    },
+    "Pages": {
+      "name": "Pages",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "memory-management"
+      ],
+      "aliases": []
+    },
+    "Pcb": {
+      "name": "Pcb",
+      "type": "Concept",
+      "definition": null,
+      "key_term": false,
+      "frequency": 1,
+      "importance_score": 0.10286289563405941,
+      "source_modules": [
+        "process-management"
+      ],
+      "aliases": []
+    }
+  },
+  "sections": {},
+  "modules": {
+    "process-management": {
+      "module_id": "process-management",
+      "title": "Process Management",
+      "type": "Module",
+      "key_terms": [
+        "Process",
+        "Process Control Block",
+        "Process Management",
+        "CPU Scheduling"
+      ]
+    },
+    "thread-management": {
+      "module_id": "thread-management",
+      "title": "Thread Management",
+      "type": "Module",
+      "key_terms": [
+        "Thread",
+        "Multithreading",
+        "Lightweight Process"
+      ]
+    },
+    "concurrency": {
+      "module_id": "concurrency",
+      "title": "Concurrency & Synchronization",
+      "type": "Module",
+      "key_terms": [
+        "Critical Section",
+        "Race Condition",
+        "Mutex",
+        "Semaphore",
+        "Synchronization"
+      ]
+    },
+    "deadlocks": {
+      "module_id": "deadlocks",
+      "title": "Deadlocks",
+      "type": "Module",
+      "key_terms": [
+        "Deadlock",
+        "Mutual Exclusion",
+        "Circular Wait",
+        "Banker's Algorithm"
+      ]
+    },
+    "memory-management": {
+      "module_id": "memory-management",
+      "title": "Memory Management",
+      "type": "Module",
+      "key_terms": [
+        "Memory Management",
+        "Paging",
+        "Fragmentation",
+        "Page Table"
+      ]
+    },
+    "virtual-memory": {
+      "module_id": "virtual-memory",
+      "title": "Virtual Memory",
+      "type": "Module",
+      "key_terms": [
+        "Virtual Memory",
+        "Page Fault",
+        "Page Replacement",
+        "Swapping",
+        "LRU"
+      ]
+    },
+    "file-systems": {
+      "module_id": "file-systems",
+      "title": "Storage & File Systems",
+      "type": "Module",
+      "key_terms": [
+        "File System",
+        "Inode",
+        "Metadata",
+        "Storage"
+      ]
+    }
+  },
+  "chunks": {},
+  "relationships": [
+    {
+      "source": "process-management",
+      "target": "Operating System Manages",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "process-management",
+      "target": "Process Control Block",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "process-management",
+      "target": "Process Management",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "process-management",
+      "target": "Computer Program",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "process-management",
+      "target": "Process States",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "process-management",
+      "target": "Cpu Scheduling",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "process-management",
+      "target": "Terminated",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "process-management",
+      "target": "Cpu Time",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "process-management",
+      "target": "Question",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "thread-management",
+      "target": "Question",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "concurrency",
+      "target": "Question",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "deadlocks",
+      "target": "Question",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "memory-management",
+      "target": "Question",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "virtual-memory",
+      "target": "Question",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "file-systems",
+      "target": "Question",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "process-management",
+      "target": "Waiting",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "process-management",
+      "target": "Running",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "process-management",
+      "target": "Answer",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "process-management",
+      "target": "Ready",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "process-management",
+      "target": "Pcb",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "thread-management",
+      "target": "Lightweight Process",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "thread-management",
+      "target": "Threads Belonging",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "thread-management",
+      "target": "Creating A Thread",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "thread-management",
+      "target": "Program Counter",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "thread-management",
+      "target": "Share Resources",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "thread-management",
+      "target": "Cpu Utilization",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "thread-management",
+      "target": "Multithreading",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "thread-management",
+      "target": "Process Share",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "thread-management",
+      "target": "Thread Differ",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "thread-management",
+      "target": "Register Set",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "thread-management",
+      "target": "Unit Of Cpu",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "thread-management",
+      "target": "Basic Unit",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "concurrency",
+      "target": "Shared Data Concurrently",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "concurrency",
+      "target": "Critical Section Problem",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "concurrency",
+      "target": "Processes Access Shared",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "concurrency",
+      "target": "Section Problem Arises",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "concurrency",
+      "target": "Mechanisms Like Mutex",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "concurrency",
+      "target": "Access Shared Data",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "concurrency",
+      "target": "Multiple Threads",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "concurrency",
+      "target": "Leading To Race",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "concurrency",
+      "target": "Race Conditions",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "concurrency",
+      "target": "Synchronization",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "concurrency",
+      "target": "Mutex Locks",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "concurrency",
+      "target": "Semaphore",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "concurrency",
+      "target": "Solved",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "deadlocks",
+      "target": "Conditions Hold Simultaneously",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "deadlocks",
+      "target": "Coffman Conditions Hold",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "deadlocks",
+      "target": "Deadlock Prevention",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "deadlocks",
+      "target": "Deadlock Avoidance",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "deadlocks",
+      "target": "Banker'S Algorithm",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "deadlocks",
+      "target": "Ostrich Algorithm",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "deadlocks",
+      "target": "Resource Acquired",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "deadlocks",
+      "target": "Mutual Exclusion",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "deadlocks",
+      "target": "Banker Algorithm",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "deadlocks",
+      "target": "Set Of Processes",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "deadlocks",
+      "target": "Circular Wait",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "memory-management",
+      "target": "Prevents Memory Fragmentation",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "memory-management",
+      "target": "Memory Management Scheme",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "memory-management",
+      "target": "Physical Memory",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "virtual-memory",
+      "target": "Physical Memory",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "memory-management",
+      "target": "Describe Paging",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "memory-management",
+      "target": "Page Table",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "memory-management",
+      "target": "Addresses",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "memory-management",
+      "target": "Divided",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "memory-management",
+      "target": "Frames",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "memory-management",
+      "target": "Blocks",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "memory-management",
+      "target": "Called",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "memory-management",
+      "target": "Pages",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "virtual-memory",
+      "target": "Separating Logical Memory",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "virtual-memory",
+      "target": "Execution Of Processes",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "virtual-memory",
+      "target": "Abstracts Main Memory",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "virtual-memory",
+      "target": "Algorithms Like Lru",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "virtual-memory",
+      "target": "Page Faults Handled",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "virtual-memory",
+      "target": "Page Fault Occurs",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "virtual-memory",
+      "target": "Page Replacement",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "virtual-memory",
+      "target": "Virtual Memory",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "virtual-memory",
+      "target": "Swapping",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "file-systems",
+      "target": "Unix-Like File Systems",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "file-systems",
+      "target": "File System Maintains",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "file-systems",
+      "target": "Explain The Concept",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "file-systems",
+      "target": "Inode In Unix-Like",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "file-systems",
+      "target": "Object Data",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "file-systems",
+      "target": "Index Node",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "file-systems",
+      "target": "Unix-Style",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "file-systems",
+      "target": "File Inode",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "file-systems",
+      "target": "Storage",
+      "type": "COVERS",
+      "weight": 1.0,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    {
+      "source": "Answer",
+      "target": "Question",
+      "type": "RELATED",
+      "weight": 0.7,
+      "confidence": 0.7,
+      "evidence": null
+    },
+    {
+      "source": "Question",
+      "target": "Process Management",
+      "type": "PREREQ",
+      "weight": 0.8,
+      "confidence": 0.6,
+      "evidence": "expensive than creating a process. Multithreading builds on process management."
+    }
+  ]
+}

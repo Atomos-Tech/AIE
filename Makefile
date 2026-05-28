@@ -1,0 +1,104 @@
+.PHONY: help install install-dev test lint format type-check clean docker-build docker-up docker-down fetch-data build-kg index-rag run-api run-frontend test-integration test-integration-ui
+
+help: ## Show this help message
+	@echo 'Usage: make [target]'
+	@echo ''
+	@echo 'Available targets:'
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-20s\033[0m %s\n", $$1, $$2}'
+
+install: ## Install production dependencies (excluding optional groups)
+	poetry install --only main --without pyirt,pybkt
+
+install-dev: ## Install all dependencies including dev tools (excluding optional groups)
+	poetry install --without pyirt,pybkt
+	poetry run pre-commit install
+
+install-student: ## Install optional student modeling dependencies (requires Python 3.11)
+	@echo "⚠️  Note: pyBKT and py-irt require Python 3.11 specifically"
+	poetry install --with pybkt --with pyirt
+
+test: ## Run tests with coverage
+	poetry run pytest
+
+test-watch: ## Run tests in watch mode
+	poetry run pytest-watch
+
+lint: ## Run linting checks
+	poetry run ruff check backend/ scripts/
+
+format: ## Format code with ruff
+	poetry run ruff format backend/ scripts/
+	poetry run ruff check --fix backend/ scripts/
+
+type-check: ## Run type checking with mypy
+	poetry run mypy backend/app scripts/
+
+clean: ## Clean up generated files
+	rm -rf .pytest_cache .mypy_cache .ruff_cache .coverage htmlcov
+	find . -type d -name __pycache__ -exec rm -rf {} +
+	find . -type f -name "*.pyc" -delete
+
+# Docker operations
+docker-build: ## Build Docker images
+	docker compose -f infra/compose/compose.yaml build
+
+docker-up: ## Start all services (neo4j, opensearch, api)
+	docker compose -f infra/compose/compose.yaml up -d
+
+docker-down: ## Stop all services
+	docker compose -f infra/compose/compose.yaml down
+
+docker-logs: ## Show Docker logs
+	docker compose -f infra/compose/compose.yaml logs -f
+
+docker-ps: ## Show running containers
+	docker compose -f infra/compose/compose.yaml ps
+
+# Subject selection
+SUBJECT ?= operating_systems
+
+# Data pipeline operations
+ingest-os: ## Ingest Operating Systems question bank
+	poetry run python scripts/ingest_os.py
+
+# KG operations
+build-kg: ## Build knowledge graph (use SUBJECT=biology to override)
+	poetry run python scripts/build_knowledge_graph.py $(if $(SUBJECT),--subject $(SUBJECT))
+
+export-rdf: ## Export KG to RDF/Turtle
+	poetry run python scripts/export_graph_rdf.py
+
+# RAG operations
+index-rag: ## Index textbook content to OpenSearch (use SUBJECT=biology to override)
+	poetry run python scripts/index_to_opensearch.py $(if $(SUBJECT),--subject $(SUBJECT))
+
+# Run services
+run-api: ## Run FastAPI backend locally
+	poetry run uvicorn backend.app.main:app --reload --host 0.0.0.0 --port 8000
+
+run-frontend: ## Run Next.js frontend (cd to frontend first)
+	cd frontend && npm run dev
+
+# Evaluation
+eval-rag: ## Run RAGAS evaluation notebook
+	poetry run jupyter notebook notebooks/eval_ragas.ipynb
+
+# Complete pipeline
+pipeline-all: ingest-os build-kg index-rag ## Run complete data pipeline
+
+# Development workflow
+dev-setup: install-dev docker-up ## Complete dev environment setup
+	@echo "✅ Development environment ready!"
+	@echo "   - Neo4j: http://localhost:7474 (neo4j/password)"
+	@echo "   - OpenSearch: http://localhost:9200"
+	@echo "   - API will run on: http://localhost:8000"
+
+# Integration tests (requires running infrastructure)
+test-integration: ## Run Playwright integration tests against live services
+	cd frontend && npx playwright test --project=integration
+
+test-integration-ui: ## Run integration tests with Playwright UI
+	cd frontend && npx playwright test --project=integration --ui
+
+# Quick checks before commit
+pre-commit: format lint type-check test ## Run all pre-commit checks
